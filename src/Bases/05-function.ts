@@ -43,4 +43,21 @@ const getUser3 = () => ({
 
 console.log(getUser3)
 
-console.log('Juan Manuel Cano Camacho')
+
+
+// Ejemplo de ejercicios
+interface personal {
+    name : string,
+    lastName: string,
+    password: number
+};
+
+function getPersonal(): personal{
+    return{
+        name: 'Daniel',
+        lastName: 'Cano Camacho',
+        password: 29032005
+    }
+};
+
+console.log(getPersonal);
