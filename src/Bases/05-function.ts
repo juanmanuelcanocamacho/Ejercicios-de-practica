@@ -42,3 +42,5 @@ const getUser3 = () => ({
 });
 
 console.log(getUser3)
+
+console.log('Juan Manuel Cano Camacho')
