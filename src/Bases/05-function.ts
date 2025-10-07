@@ -61,3 +61,11 @@ function getPersonal(): personal{
 };
 
 console.log(getPersonal);
+
+
+//Ejemplo de ejercicios
+const myNumber : number[] = [1,2,3,4,5]
+
+myNumber.forEach(function (value){
+    console.log({ value })
+});
