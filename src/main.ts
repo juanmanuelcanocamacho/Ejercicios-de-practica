@@ -6,11 +6,13 @@ import './style.css'
 //import './Bases/04-arrays'
 //import './Bases/05-function'
 //import './Bases/06-obj-destructuring'
-import './Bases/07-array-destructuring'
+//import './Bases/07-array-destructuring'
+//import './Bases/08-imp-exp'
+import './Bases/09-promises'
 
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <h1>Hola Mundo</h1>
-  </div>
-`;
+import { getHeroByOwner } from './Bases/08-imp-exp';
+import { Owner } from './Bases/data/heroes.data';
+
+
+//console.log(getHeroByOwner(Owner.Marvel))
