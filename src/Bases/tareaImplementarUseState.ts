@@ -25,7 +25,7 @@ setName('Vegeta');       // Imprime "Vegeta"*/
 
 const useState = (valor: String) =>{
     return[
-        valor, (valorFlecha: String) => {console.log(valorFlecha)} as const;
-
-    ]
-}
+        valor, 
+        (valorFlecha: String) => console.log(valorFlecha)
+    ] as const;
+};
